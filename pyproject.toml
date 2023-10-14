@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "seminar"
+version = "0.1.0"
+description = ""
+authors = ["momonong <morrischen2.9@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+python-dotenv = "^1.0.0"
+selenium = "^4.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
