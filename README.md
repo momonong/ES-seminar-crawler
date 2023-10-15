@@ -18,7 +18,7 @@ poetry run python main.py
 
 **Schedule with cron for periodic execution:**  
 Add the following line to your crontab to run the script every hour:  
-0 * * * * cd /path/to/seminar && /path/to/poetry run python /path/to/seminar/main.py
+0 * * * * cd </path/to/project_dir> && </path/to/poetry> run python </path/to/project_dir/main.py>
 
 ## Notes
 **Ensure you have permission from the website to periodically scrape its content.**  
