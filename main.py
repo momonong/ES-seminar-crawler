@@ -49,7 +49,7 @@ def check_element_change():
         current_value = option_element.text
         if PREVIOUS_VALUE and PREVIOUS_VALUE != current_value:
             print("seminar has updated!!")
-            send_line_notify("seminar has updated!!")  # 發送LINE通知
+            send_line_notify(f"seminar has updated!!\n\n{URL}")  # 發送LINE通知
             update_previous_value(current_value)  # 更新 .env 檔案中的 PREVIOUS_VALUE
         else:
             # send_line_notify(f'nothing changed: {current_value}')
