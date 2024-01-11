@@ -8,7 +8,7 @@ This project is designed to periodically check for session changes on the NCKU E
 PREVIOUS_VALUE: The value of the session from the last check.  
 LINE_NOTIFY_TOKEN: Your LINE Notify API token.
 
-**Install the required Python packages:**  
+**Install the required Python packages by running:**  
 poetry install
 
 ## Usage
